@@ -70,7 +70,6 @@ h3 {
 }
 
 .social-icons {
-  opacity: .6;
   position: absolute;
   bottom: 1.6rem;
   width: 100%;
@@ -78,10 +77,19 @@ h3 {
 }
 
 .social-icons li {
+  display: inline;
+}
+
+.social-icons li a {
+  text-decoration: none;
+  opacity: .6;
   color: #E7E7E7;
   padding: .8rem;
   margin: 0 auto;
-  display: inline;
+}
+
+.social-icons li a:hover {
+  opacity: 1;
 }
 
 .menu {

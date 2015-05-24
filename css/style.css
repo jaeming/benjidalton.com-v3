@@ -140,7 +140,7 @@ header {
   padding-top: 8rem;
   text-align: center;
   height: 20rem;
-  background: url('../img/bg2.jpg');
+  background: url('../img/bg2.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 

@@ -1,0 +1,164 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.6;
+}
+
+p {
+  line-height: 1.8;
+  color: #555;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  line-height: 2;
+  color: #555;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+}
+
+.button {
+  background: rgba(255, 255, 255, 0.7);
+  color: #6B7400;
+  padding: 1rem;
+  text-decoration: none;
+  border: 1.6px solid rgba(255, 255, 255, 0.4);
+  border-radius: 9px;
+  transition: all 340ms ease;
+}
+
+.button:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.sidebar {
+  position: fixed;
+  background: #444A50;
+  height: 100%;
+  width: 20%;
+  margin-right: 2.5%;
+}
+
+.sidebar img, small, span {
+  position: absolute;
+  right: 1.6rem;
+  padding: 1rem 0;
+}
+
+.sidebar small {
+  font-family: 'Raleway', sans-serif;
+  font-size: .8rem;
+  top: 7.4rem;
+  text-align: right;
+  color: #B3B3B3;
+}
+
+.sidebar span {
+  text-align: right;
+  top: 5rem;
+  color: #E7E7E7;
+}
+
+.sidebar img {
+  top: 1rem;
+  border-radius: 100%;
+  width: 3rem;
+}
+
+.social-icons {
+  opacity: .6;
+  position: absolute;
+  bottom: 1.6rem;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons li {
+  color: #E7E7E7;
+  padding: .8rem;
+  margin: 0 auto;
+  display: inline;
+}
+
+.menu {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 11rem;
+}
+
+.menu li {
+  width: 100%;
+  text-align: right;
+  padding: 1rem 0;
+  width: 100%;
+  color: #fff;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding-right: 1rem;
+  color: inherit;
+  opacity: .7;
+}
+
+.menu li a:hover {
+  opacity: 1;
+}
+
+.active {
+  background: rgb(55, 61, 67);
+  opacity: 1;
+}
+
+.active a {
+  opacity: 1 !important;
+}
+
+main, header, footer {
+  margin-left: 20%;
+  background: whitesmoke;
+}
+
+nav span {
+  font-size: 1.4rem;
+}
+
+header {
+  padding-top: 8rem;
+  text-align: center;
+  height: 20rem;
+  background: url('../img/bg2.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  font-family: 'Lobster', cursive;
+  color: #E7E7E7;
+  font-size: 3rem;
+}
+
+header h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: .9rem;
+  color: #E7E7E7;
+  margin-bottom: 2.6rem;
+}
+
+section {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}

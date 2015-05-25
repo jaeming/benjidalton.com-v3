@@ -127,9 +127,26 @@ h3 {
   opacity: 1 !important;
 }
 
+.portfolio-image {
+  border: 5px solid #DFDFDF;
+  border-radius: 2px;
+  max-width: 13rem;
+  margin: .5rem;
+  transition: all 350ms ease;
+}
+
+.portfolio-image:hover {
+
+}
+
+.portfolio-grid {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 main, header, footer {
   margin-left: 20%;
-  background: whitesmoke;
+  background: #F7F7F7;
 }
 
 nav span {

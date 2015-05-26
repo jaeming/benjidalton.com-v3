@@ -135,13 +135,65 @@ h3 {
   transition: all 350ms ease;
 }
 
-.portfolio-image:hover {
-
-}
-
 .portfolio-grid {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.portfolio-card {
+  display: inline-block;
+  margin-bottom: 9rem;
+  margin-left: .9rem;
+  margin-right: .9rem;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+
+.reverse-info {
+  text-align: center;
+  padding: .7rem;
+  height: 8rem;
+  width: 12.3rem;
+  margin-top: .55rem;
+  margin-left: .4rem;
+  background: #fff;
+  border-radius: 2px;
+/*-webkit-box-shadow: 2px 9px 50px 4px rgba(0,0,0,0.17);
+-moz-box-shadow: 2px 9px 50px 4px rgba(0,0,0,0.17);
+box-shadow: 2px 9px 50px 4px rgba(0,0,0,0.17);*/
+}
+
+.reverse-info h4 {
+  font-size: .8rem;
+}
+
+.reverse-info p {
+  font-size: .6rem;
+}
+
+.card {
+  display: inline-block;
+  width: 13rem;
+  transition: -webkit-transform 1s ease;
+  -webkit-transform-style: preserve-3d;
+}
+
+.card div {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+}
+
+.side-a {
+  z-index: 100;
+}
+
+.side-b {
+  width: 13rem;
+  -webkit-transform: rotateY(-180deg);
+}
+
+.card:hover {
+  -webkit-transform: rotateY(-.5turn);
 }
 
 main, header, footer {

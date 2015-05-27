@@ -81,7 +81,7 @@ header h4 {
 
 .sidebar {
   position: fixed;
-  background: #444A50;
+  background: #272a2b;
   height: 100%;
   width: 20%;
   margin-right: 2.5%;
@@ -160,8 +160,9 @@ nav span {
 }
 
 .menu li a {
+  font-size: .8rem;
   text-decoration: none;
-  padding-right: 1rem;
+  padding-right: 1.2rem;
   color: inherit;
   opacity: .7;
 }
@@ -171,7 +172,7 @@ nav span {
 }
 
 .active {
-  background: rgb(55, 61, 67);
+  background: #1D1D1D;
   opacity: 1;
 }
 

@@ -180,6 +180,19 @@ nav span {
   opacity: 1 !important;
 }
 
+/*FOOTER*/
+
+footer {
+  background: #FFFFFF;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: .8rem;
+  color: #C7C7C7;
+}
+
 /*PORTFOLIO SECTION*/
 
 .portfolio-image {

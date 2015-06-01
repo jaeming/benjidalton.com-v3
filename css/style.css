@@ -246,6 +246,77 @@ footer p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
+.container {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="5" /></filter></svg>#filter');
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.close-button {
+  position: fixed;
+  top: 2.5rem;
+  left: 6%;
+  border-radius: 50%;
+  background: #CE7578;
+  padding: 1.5px 7px;
+  color: #EAEAEA;
+  transition: all 260ms ease-in;
+}
+
+.close-button span {
+  font-size: 0rem;
+  text-align: center;
+  margin-left: 5px;
+  width: 2.5rem;
+  position: fixed;
+  top: 2.59rem;
+  left: 9%;
+  color: #FFF6F7;
+  padding: .3rem;
+  border-radius: .3rem;
+  transition: all 260ms ease-in;
+}
+
+.close-button:hover {
+  color: #E9C9CA;
+  background: #944B4D;
+}
+
+.close-button:hover span {
+  text-align: center;
+  margin-left: 5px;
+  width: 2.5rem;
+  position: fixed;
+  top: 2.59rem;
+  left: 9%;
+  font-size: .6rem;
+  color: #FFF6F7;
+  background: #AC5659;
+  padding: .3rem;
+  border-radius: .3rem;
+}
+
+.overlay {
+  overflow: auto;
+  position: fixed;
+  top: 2rem;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  max-height: 75%;
+  background: rgba(255, 255, 255, .9);
+  z-index: 1001;
+  color: #3C3C3C;
+  padding: 4%;
+  border-radius: .4rem;
+  border: solid #EAEAEA .7rem;
+  -webkit-box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.06);
+  -moz-box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.06);
+  box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.06);
+}
+
 /*CONTACT SECTION*/
 
 form {

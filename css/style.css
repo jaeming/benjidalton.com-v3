@@ -246,7 +246,13 @@ footer p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
+/*THOUGHTS -> Modal*/
+
 .container {
+  transition: all 360ms ease;
+}
+
+.blur-background {
   filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="5" /></filter></svg>#filter');
   -webkit-filter: blur(5px);
           filter: blur(5px);
@@ -254,8 +260,8 @@ footer p {
 
 .close-button {
   position: fixed;
-  top: 2.5rem;
-  left: 6%;
+  top: 3.1rem;
+  left: 7%;
   border-radius: 50%;
   background: #CE7578;
   padding: 1.5px 7px;
@@ -269,8 +275,8 @@ footer p {
   margin-left: 5px;
   width: 2.5rem;
   position: fixed;
-  top: 2.59rem;
-  left: 9%;
+  top: 3.2rem;
+  left: 9.7%;
   color: #FFF6F7;
   padding: .3rem;
   border-radius: .3rem;
@@ -287,8 +293,8 @@ footer p {
   margin-left: 5px;
   width: 2.5rem;
   position: fixed;
-  top: 2.59rem;
-  left: 9%;
+  top: 3.2rem;
+  left: 9.7%;
   font-size: .6rem;
   color: #FFF6F7;
   background: #AC5659;
@@ -304,12 +310,12 @@ footer p {
   left: 0;
   margin-right: auto;
   margin-left: auto;
-  width: 80%;
+  width: 75%;
   max-height: 75%;
   background: rgba(255, 255, 255, .9);
   z-index: 1001;
   color: #3C3C3C;
-  padding: 4%;
+  padding: 6%;
   border-radius: .4rem;
   border: solid #EAEAEA .7rem;
   -webkit-box-shadow: 4px 8px 30px 0px rgba(0,0,0,0.06);

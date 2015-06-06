@@ -436,3 +436,46 @@ box-shadow: 2px 9px 50px 4px rgba(0,0,0,0.17);*/
 .card:hover {
   -webkit-transform: rotateY(-.5turn);
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 804px) {
+
+  header h1 {
+    font-size: 160%;
+  }
+
+  header .button {
+    display: none;
+  }
+
+  header {
+    padding-top: 5rem;
+    height: 8rem;
+  }
+
+  .sidebar {
+    margin-left: -100%;
+  }
+
+  header {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 2%;
+  }
+
+  form {
+  max-width: 90%;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+
+  footer {
+    margin-left: 0;
+  }

@@ -174,7 +174,7 @@ header h4 {
 }
 
 .mobile-menu-dismiss {
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
   display: none;
   z-index: 1001;
   position: fixed;
@@ -253,7 +253,7 @@ nav span {
 }
 
 .active {
-  background: rgba(0, 0, 0, 0.22);
+  background: rgba(68, 68, 68, 0.44);
   opacity: 1;
 }
 

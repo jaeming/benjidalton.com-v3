@@ -217,6 +217,8 @@ header h4 {
 
 .portfolio-grid {
   text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 /*Menu nav*/

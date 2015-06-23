@@ -1,8 +1,11 @@
 /*GENERAL*/
 
 section {
-  padding: 1rem;
+  padding: 2rem;
   margin-bottom: 1rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main {

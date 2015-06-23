@@ -13,6 +13,10 @@ $( document ).ready(function() {
     $('.sidebar').addClass('mobile-nav-showing');
     $('.mobile-menu').addClass('mobile-menu-hide');
     $('.mobile-menu-dismiss').addClass('mobile-menu-dismiss-show');
+    $('.overlay').fadeOut();
+    $('.overlay').remove(function() {
+      $(this).remove();
+    });
     $('.container').addClass('blur-background');
   });
 

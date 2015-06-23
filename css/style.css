@@ -221,6 +221,60 @@ header h4 {
 
 /*Menu nav*/
 
+.logo {
+  z-index: 2000;
+  opacity: .9 !important;
+  position: absolute;
+  top: 1.05rem;
+  left: 1.7rem;
+  width: 1.4rem !important;
+  border-radius: 100%;
+  transition: all ease 333ms;
+}
+
+.logo:hover {
+  border-radius: 0%;
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+.awesome-developer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  display: inline;
+  position: absolute;
+  left: 3.8rem;
+  top: 1rem;
+  color: rgba(213, 218, 212, 0.97);
+}
+
+.top-menu-items {
+  position: absolute;
+  right: 3.8rem;
+  top: 1rem;
+}
+
+.top-menu-items .active{
+  background: transparent;
+}
+
+.top-menu-items li {
+  padding: 0 .5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: inherit;
+  display: inline;
+}
+
+.top-menu-items a {
+  color: rgba(213, 218, 212, 0.97);
+}
+
+.top-menu-items a:hover {
+  color: #fff;
+}
+
 nav span {
   font-size: 1.4rem;
 }

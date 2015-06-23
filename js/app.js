@@ -9,7 +9,8 @@ $( document ).ready(function() {
       return false;
   });
 
-  $('.mobile-menu').click(function() {
+  $('.mobile-menu, .logo').click(function() {
+    $('.logo').hide();
     $('.sidebar').addClass('mobile-nav-showing');
     $('.mobile-menu').addClass('mobile-menu-hide');
     $('.mobile-menu-dismiss').addClass('mobile-menu-dismiss-show');
@@ -21,7 +22,7 @@ $( document ).ready(function() {
   });
 
   $('.mobile-menu-dismiss, .sidebar, main, .menu a').click(function() {
-    console.log('clicked');
+    $('.logo').show();
     $('.sidebar').removeClass('mobile-nav-showing');
     $('.mobile-menu').removeClass('mobile-menu-hide');
     $('.mobile-menu-dismiss').removeClass('mobile-menu-dismiss-show');

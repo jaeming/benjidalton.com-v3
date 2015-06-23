@@ -13,6 +13,7 @@ $( document ).ready(function() {
     $('.sidebar').addClass('mobile-nav-showing');
     $('.mobile-menu').addClass('mobile-menu-hide');
     $('.mobile-menu-dismiss').addClass('mobile-menu-dismiss-show');
+    $('.container').addClass('blur-background');
   });
 
   $('.mobile-menu-dismiss, .sidebar, main, .menu a').click(function() {
@@ -20,6 +21,7 @@ $( document ).ready(function() {
     $('.sidebar').removeClass('mobile-nav-showing');
     $('.mobile-menu').removeClass('mobile-menu-hide');
     $('.mobile-menu-dismiss').removeClass('mobile-menu-dismiss-show');
+    $('.container').removeClass('blur-background');
   });
 
   $(window).scroll(function() {
